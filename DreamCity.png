@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My dream city</title>
+
+    </head>
+    <body bgcolor="#e868af">
+        <header>
+            <h1>Welcome to my dream city!!</h1>
+            <img src="city.png"
+        </header>
+        <main>
+            <section>
+                <h2>Park</h2>
+                <p>The city of my dreams has the most unique park!</p>
+                <ul>
+                    <li>Volleyball courts</li>
+                    <li>A lot of sakura</li>
+                    <li>Hammocks</li>
+                </ul>
+                <img src="park.png"
+            </section>
+            <section>
+                <h2>Anime store</h2>
+                <P>Anime store is the most favorite teen store.</P>
+                <ul>
+                    <li>posters</li>
+                    <li>backpack badges</li>
+                    <li>figurines</li>
+                </ul>
+                <img src="shop.png"
+            </section>
+            <section>
+                <h2>K-pop cafe</h2>
+                <p>At this K-pop cafe you can try the most delicious Asian dishes.</p>
+                <img src="cafe.png"
+                <ul>
+                    <li>chilly vibe</li>
+                    <li>delicious dishes</li>
+                    <li>friendly waiters</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Waiting for you!! My dream city,2023</p>
+        </footer>
+
+    </body>
+</html>

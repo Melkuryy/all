@@ -1,0 +1,70 @@
+body {
+  background-image: url("background.jpd.jpg");
+  display: flex;
+  justify-content: center;
+
+}
+.body-content {
+    width: 800px;
+    min-height: 700px;
+    border: 10px solid rgba(20785, 0.688, 144, 1);
+    background-color: rgba(20785, 0.688, 144, 1);
+}
+
+.header-text {
+    height: 200px;
+    background: url("baner.jpg") center center / cover;
+    font-size: 30px; 
+
+}
+
+.center-text {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+a {
+    float: left;
+    color: blueviolet;
+    padding: 14px 16px;
+
+}
+.main-content{
+    display: flex;
+}
+img {
+    width: 300px;
+    margin: 10px;
+
+}
+p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 27px;
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+
+}
+
+footer {
+    background-color: #333;
+    height: 35px;
+    width: 100%;
+
+}

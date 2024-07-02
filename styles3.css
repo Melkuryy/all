@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(6,214,160,0.1);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.text {
+    font-size: 32pt;
+    animation: move 3s linear infinite ;
+    margin-bottom:100px ;
+}
+.text:hover ~ .image {
+    opacity: 1;
+}
+
+
+.image {
+    width: 400px;
+    opacity: 0;
+    transition: 2s;
+}
+@keyframes move {
+    25% {
+        transform: rotate(20deg);
+    }
+    75% {
+        transform: rotate(-20deg);
+    }
+    
+}
